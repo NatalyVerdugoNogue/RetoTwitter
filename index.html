@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="stylesheet" href="assets/grid.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Twitter</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Twitter</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sección textarea, botón y contenedor mensajes -->
+  <section class="center">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div id="cuad1">
+            <p id="ustitle">Reto de Código
+            </p>
+            <p id="usmesagge">Hola,
+              <br>soy front-end developer jr.
+            </p>
+            <p id="usbottom">CÓDIGO
+            </p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div id="cuad2">
+            <div>
+              <textarea class="txt" id="comment" placeholder="Añade un comentario..."></textarea>
+            </div>
+            <div>
+              <button type="submit" id="btn">TWEET</button>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- contenedor comentarios -->
+      <div class="row">
+        <div class="col-12" id="cont"></div>
+      </div>
+    </div>
+  </section>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
